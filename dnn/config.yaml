@@ -1,0 +1,12 @@
+model_params:
+  name: 'winklink'
+  n_channel: 3
+  
+data_params:
+  data_path: "../data"
+  shape: [128, 128]
+
+logging_params:
+  save_dir: "logs/"
+  
+  
