@@ -46,7 +46,7 @@ Ensure that your environment matches the tested setups mentioned above. If not, 
 This section details the organization and contents of the `data` and `model_weights` folders:
 
 - **Data**:
-  - The `data` folder contains a dataset of 7,245 images, each sized 128x128 pixels. Plase download at https://drive.google.com/drive/folders/1Sduz3lq81CXbSBtxrSunDKV7p-H0pkHE?usp=drive_link. It is structured as follows:
+  - The `data` folder contains a dataset of 7,245 images, each sized 128x128 pixels. Please download at https://drive.google.com/drive/folders/1Sduz3lq81CXbSBtxrSunDKV7p-H0pkHE?usp=drive_link. It is structured as follows:
     - **origin_*.npy**: These files store the original images without stripes. Each file follows the format `(n_images, n_channel, H, W)`.
     - **striped_*.npy**: These files include the same images but with synthetic stripes added. The format is identical to the `origin_*.npy` files.
     - **freqs.npy**: Contains the ground truth for the 1D stripes with a shape of `(n_images, 512)`.
