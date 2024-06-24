@@ -52,9 +52,7 @@ This section details the organization and contents of the `data` and `model_weig
     - **freqs.npy**: Contains the ground truth for the 1D stripes with a shape of `(n_images, 512)`.
 
 - **Model Weights**:
-  - The `model_weights` folder contains pretrained model weights that are compatible with images of three different sizes: 128x128, 256x256, and 512x512 pixels. These weights are crucial for deploying the trained models on your dataset without the need for retraining from scratch.
-
-This structure ensures that users can easily navigate the provided resources, understand the
+  - The `model_weights` folder contains pretrained model weights that are compatible with images of three different sizes: 128x128, 256x256, and 512x512 pixels. These weights are useful for deploying the trained models on your dataset without the need for retraining from scratch.
 
 
 ## Citing Our Work
@@ -66,7 +64,7 @@ If our work contributes to your research, please consider citing it using the fo
   title     = {Practical Optical Camera Communication Behind Unseen and Complex Backgrounds},
   author    = {Rui Xiao and Leqi Zhao and Feng Qian and Lei Yang and Jinsong Han},
   booktitle = {Proceedings of the 22nd Annual International Conference on Mobile Systems, Applications, and Services (MobiSys 2024)},
-  pages     = {xxx--xxx},
+  pages     = {113--126},
   year      = {2024},
   publisher = {ACM},
   address   = {Tokyo, Japan},
